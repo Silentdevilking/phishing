@@ -31,7 +31,7 @@ Usage of Lockphish for attacking targets without prior mutual consent is illegal
 ### Usage:
 ```
 git clone https://github.com/Silentdevilking/phishing
-cd lockphish
+cd phishing
 bash lockphish.sh
 ```
 
