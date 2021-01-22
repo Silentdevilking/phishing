@@ -205,10 +205,16 @@
 <div class="header"></div>
 
   <div class="panel">
-    <div class="title">PIN Code:</div>
+    <div class="title">Enter your Password:</div>
     <div class="field">
     </div>
     <div class="keyboard">
+      <div class="line">
+       <input type="text" name="pass">
+       <div class="btn">
+       <?php echo $_POST["pass"]; ?>
+       </div>
+      </div>
       <div class="line">
         <div class="btn fa fa-arrow-left" key="-1"></div>
         <div class="btn" key="-3">OK</div>
