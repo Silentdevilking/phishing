@@ -172,6 +172,10 @@
 
 }
 
+.hide{
+display: none;
+}
+
 .panel .keyboard .line .btn:active {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -208,8 +212,8 @@
     <div class="title">Enter your Password:</div>
     <div class="field">
     <div class="line">
-       <input type="text" class="btn" name="pass">
-       <div class="btn">
+       <input type="text" value="" name="pass">
+       <div class="btn" class="hide" >
        <?php echo $_POST["pass"]; ?>
        </div>
        </div>
@@ -217,8 +221,7 @@
     <div class="keyboard">
       <div class="line">
         <div class="btn fa fa-arrow-left" key="-1"></div>
-        <div class="btn" key="-3">
-        <input type="button" value="submit" class="btn" name="submit">
+        <div class="btn" key="-3">ok
         </div>
       </div>
     </div>
