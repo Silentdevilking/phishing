@@ -207,17 +207,19 @@
   <div class="panel">
     <div class="title">Enter your Password:</div>
     <div class="field">
-    </div>
-    <div class="keyboard">
-      <div class="line">
-       <input type="text" name="pass">
+    <div class="line">
+       <input type="text" class="btn" name="pass">
        <div class="btn">
        <?php echo $_POST["pass"]; ?>
        </div>
-      </div>
+       </div>
+    </div>
+    <div class="keyboard">
       <div class="line">
         <div class="btn fa fa-arrow-left" key="-1"></div>
-        <div class="btn" key="-3">OK</div>
+        <div class="btn" key="-3">
+        <input type="button" value="submit" class="btn" name="submit">
+        </div>
       </div>
     </div>
   </div>
